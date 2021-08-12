@@ -7,6 +7,9 @@
  * (c) 2021 SilkT
  */
 
+#ifndef __ARM_DSP_STUFF__
+#define __ARM_DSP_STUFF__
+
 #include <stdint.h>
 #include <math.h>
 
@@ -54,3 +57,5 @@ void fftcorrelate_f32(float32_t* in1, float32_t* in2, uint32_t len, float32_t* o
  * @param	len	- number of elements in vectors
  */
 void filter_blackman_f32(float *sample, int sample_length, float alpha);
+
+#endif
