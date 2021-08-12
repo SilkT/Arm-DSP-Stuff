@@ -20,6 +20,8 @@
 #define M_PI  3.14159
 #endif
 
+#define FFT_DOBITREVERSE 1
+
 #if DSP_STUFF_USE_ARM_MATH
 /**
  * @brief   A wrapper for CMSIS function that doesn't change the input sample but uses more RAM
